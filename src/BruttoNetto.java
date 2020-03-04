@@ -2,6 +2,10 @@ public class BruttoNetto {
     public static void main(String[] args) {
         int nettoPreis = 200;
         // float floatSteuersatz = 0.05f;
+        int teiler;
+        teiler =105;
+        int rest = nettoPreis % teiler;
+        System.out.println (rest);
         double steuersatz = 0.05;
         double maxSteuersatz = 0.04;
         //float bruttoPreis;
